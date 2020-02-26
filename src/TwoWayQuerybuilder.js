@@ -77,7 +77,7 @@ class TwoWayQuerybuilder extends React.Component {
   }
 
   render() {
-    return (<div>
+    return (<div className={'reactTwoWayQueryBuilder'}>
       <Condition
         config={this.config}
         buttonsText={this.buttonsText}

@@ -1,8 +1,8 @@
-.queryButton:active{
+.reactTwoWayQueryBuilder .queryButton:active{
   outline: none;
 }
 
-.queryButtonPrimary{
+.reactTwoWayQueryBuilder .queryButtonPrimary{
   font-family: Roboto, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -43,15 +43,15 @@
   color: var(--mdc-theme-text-primary-on-primary, white);
 }
 
-.queryButtonPrimary:active {
+.reactTwoWayQueryBuilder .queryButtonPrimary:active {
   box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
 }
 
-.queryButtonDelete:active{
+.reactTwoWayQueryBuilder .queryButtonDelete:active{
   box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12)
 }
 
-.queryButtonDelete{
+.reactTwoWayQueryBuilder .queryButtonDelete{
   font-family: Roboto, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -94,7 +94,7 @@
   color: var(--mdc-theme-text-primary-on-accent, white);
 }
 
-.rule{
+.reactTwoWayQueryBuilder .rule{
   display: flex;
   border-radius: 3px;
   color: #9E9E9E;
@@ -109,11 +109,11 @@
   opacity: 1;
 }
 
-.rule *{
+.reactTwoWayQueryBuilder .rule *{
 	margin-left: 0.5rem;
 }
 
-.condition{
+.reactTwoWayQueryBuilder .condition{
 	margin-left: 1rem;
 	padding: 0.5rem;
 	margin-top: 0.2rem;
@@ -127,7 +127,7 @@
   opacity: 1;
 }
 
-.querySelect{
+.reactTwoWayQueryBuilder .querySelect{
   font-family: Roboto, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -171,14 +171,14 @@
   letter-spacing: .04em;
 }
 
-.querySelect:focus{
+.reactTwoWayQueryBuilder .querySelect:focus{
   border-bottom-color: #3f51b5;
   border-bottom-color: var(--mdc-theme-primary, #3f51b5);
   outline: none;
   background-color: rgba(0, 0, 0, 0.06);
 }
 
-.queryInput{
+.reactTwoWayQueryBuilder .queryInput{
   color: rgba(0, 0, 0, 0.87);
   color: var(--mdc-theme-text-primary-on-light, rgba(0, 0, 0, 0.87));
   border: none;
@@ -194,13 +194,13 @@
   padding-bottom: 6px;
 }
 
-.queryInput:focus{
+.reactTwoWayQueryBuilder .queryInput:focus{
   border-color: #3f51b5;
   border-color: var(--mdc-theme-primary, #3f51b5);
   outline: none;
 }
 
-.queryText{
+.reactTwoWayQueryBuilder .queryText{
   font-family: Roboto, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -225,6 +225,6 @@
   to {opacity: 1}
 }
 
-.error {
+.reactTwoWayQueryBuilder .error {
   color: red;
 }
